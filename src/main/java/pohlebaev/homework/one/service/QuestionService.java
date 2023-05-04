@@ -1,6 +1,6 @@
 package pohlebaev.homework.one.service;
 
-import pohlebaev.homework.one.model.Question;
+import org.springframework.stereotype.Service;
 
 public interface QuestionService {
 

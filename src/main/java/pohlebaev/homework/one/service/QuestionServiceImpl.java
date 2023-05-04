@@ -1,14 +1,17 @@
 package pohlebaev.homework.one.service;
 
-import pohlebaev.homework.one.model.Question;
+import org.springframework.stereotype.Service;
 import pohlebaev.homework.one.dao.QuestionDao;
+import pohlebaev.homework.one.model.Question;
 
 import java.util.List;
 import java.util.Scanner;
 
+@Service
 public class QuestionServiceImpl implements QuestionService {
 
     private final QuestionDao questionDao;
+    
 
     public QuestionServiceImpl(QuestionDao questionDao) {
         this.questionDao = questionDao;
