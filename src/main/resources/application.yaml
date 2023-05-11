@@ -1,0 +1,7 @@
+spring:
+  messages:
+    basename: "i18n/questionandanswer"
+    encoding: "UTF-8"
+
+locale: en
+

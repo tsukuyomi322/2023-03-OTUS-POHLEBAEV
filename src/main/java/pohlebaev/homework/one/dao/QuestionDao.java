@@ -6,5 +6,5 @@ import pohlebaev.homework.one.model.Question;
 import java.util.List;
 public interface QuestionDao {
 
-    List<Question> getAllQuestionsAndCheckErrors();
+    List<Question> getAllQuestions();
 }
